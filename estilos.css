@@ -27,7 +27,8 @@ section:last-of-type gallery {
         float: left;
     }
     img:hover {
-        transform: scale(1.5);
+        width: 400px;
+        /* transform: scale(1.5); */
     }
 
 }
