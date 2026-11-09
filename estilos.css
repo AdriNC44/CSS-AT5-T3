@@ -1,0 +1,33 @@
+body {
+    background-image: url("imagenes/fondomarmol.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    height: 300px;
+    width: 60px;
+    display: flex;
+
+}
+
+section:first-of-type gallery {
+    width: 774px;
+    display: flex;
+
+    img:hover {
+        flex-grow: 1.5;
+    }
+}
+
+section:last-of-type gallery {
+    width: 774px;
+    float: inline-start;
+    img{
+        float: left;
+    }
+    img:hover {
+        transform: scale(1.5);
+    }
+
+}
